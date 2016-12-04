@@ -1,0 +1,18 @@
+{
+  "name": "front-end-dev-bootcamp_w3-ex5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "./node_modules/.bin/webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^2.1.0-beta.27"
+  },
+  "dependencies": {
+    "webpack": "^2.1.0-beta.27"
+  }
+}
