@@ -1,18 +1,36 @@
 {
-  "name": "front-end-dev-bootcamp_w3-ex5",
+  "name": "konsultacje",
   "version": "1.0.0",
-  "description": "",
+  "description": "KOnsultacje EduWeb.pl",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "webpack": "./node_modules/.bin/webpack"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/ev45ive/eduweb_bootcamp.git"
   },
   "author": "",
   "license": "ISC",
+  "homepage": "https://bitbucket.org/ev45ive/eduweb_bootcamp#readme",
   "devDependencies": {
-    "webpack": "^2.1.0-beta.27"
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.9",
+    "babel-preset-es2015": "^6.18.0",
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "html-loader": "^0.4.4",
+    "html-webpack-plugin": "^2.24.1",
+    "jshint": "^2.9.4",
+    "jshint-loader": "^0.8.3",
+    "node-sass": "^3.13.0",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
   },
   "dependencies": {
-    "webpack": "^2.1.0-beta.27"
+    "angular": "^1.6.0"
   }
 }
